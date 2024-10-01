@@ -1,0 +1,75 @@
+/* ---- BREAKPOINT = 1230px ---- */
+@media only screen and (max-width: 1230px){
+    .navleft, .navright{
+        width: 100%;
+    }
+    .headertop{
+        height: auto;
+    }
+    .navright div:nth-child(1){
+        margin-left: 0px;
+    }
+    .navright, .navleft{
+        justify-content: center;
+    }
+    .links{width: 30%;}
+    .introimage{
+        width: 90%;
+    }
+    .introtitle{
+        font-size: 2.5em;
+    }
+    .bodyinfo{
+        width: 100%;
+    }
+    .cardcontainer{
+        margin-right: 20px;
+    }
+    .card{
+        width: 42%;
+    }
+}
+/* ---- BREAKPOINT = 900px ---- */
+@media only screen and (max-width: 900px){
+    .navright{
+        display: none;
+    }
+    .cardcontainer{
+        width: 100%;
+    }
+    .blogs{
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+    }
+}
+/* ---- BREAKPOINT = 600px ---- */
+@media only screen and (max-width: 600px){
+    .homeiconimg{
+        display: none;
+    }
+    .homeiconlink{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .navlinks{
+        padding: 10px;
+    }
+    .links{
+        font-size: 0.7em;
+    }
+    .introtitle{
+        font-size: 1.2em;
+        bottom: 0px;
+    }
+    .bodyinfo{
+        flex-wrap: wrap;
+    }
+    .cardcontainer{
+        margin-right: 0px;
+    }
+    .blogs{
+        margin-left: 0px;
+    }
+}
