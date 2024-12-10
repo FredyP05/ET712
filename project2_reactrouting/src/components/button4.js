@@ -4,7 +4,7 @@ const Button4 = function(){
     return(
         <>
             <header>
-                <h1>Placeholder</h1>
+                <h1>Accessories</h1>
                
             </header>
         </>

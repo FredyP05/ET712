@@ -7,9 +7,9 @@ const Navbars = function(){
             <nav className="navbar">
                 <div className="btngroup">
                     <button><Link to="/">Home</Link></button>
-                    <button><Link to='/about'>Placeholder</Link></button>
-                    <button><Link to='/contact'>Placeholder</Link></button>
-                    <button><Link to='/button4'>Place holder</Link></button>
+                    <button><Link to='/button2'>iPhone</Link></button>
+                    <button><Link to='/button3'>Android</Link></button>
+                    <button><Link to='/button4'>Accessories</Link></button>
                 </div>
             </nav>
         </>
