@@ -17,15 +17,20 @@ const Button1 = function(){
                     <div className='card'>
                         <figure>
                             <Link to="/button2"><img src={iphone} className='card-image'/></Link>  
+                            <h1>iPhone</h1>   
                         </figure>
                     </div>
                     <div className='card'>
                         <figure>
-                            <Link to="/button3"><img src={android} className='card-image'/></Link>     
+                            <Link to="/button3"><img src={android} className='card-image'/></Link>  
+                            <h1>Android</h1>   
                         </figure>
                     </div>
                     <div className='card'>
-                        <Link to="/button4"><img src={accessories} className='card-image'/></Link>
+                        <figure>
+                            <Link to="/button4"><img src={accessories} className='card-image'/></Link>
+                            <h1>Accessories</h1>
+                        </figure>
                     </div>   
                 </div>
             </section>   

@@ -12,7 +12,7 @@ import Navbars from './components/navbars'
 function App() {
   return (
     <>
-      <h1 className='title'>Smartphones</h1>
+      <h1 className='title'>Smartphones by Fredy Perez Vicente</h1>
       <BrowserRouter>
         <Navbars/>
         <Routes>
