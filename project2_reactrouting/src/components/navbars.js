@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Navbars = function(){
     return(
         <>
-            <nav className="navbar">
-                <div className="btngroup">
-                    <button><Link to="/">Home</Link></button>
-                    <button><Link to='/button2'>iPhone</Link></button>
-                    <button><Link to='/button3'>Android</Link></button>
-                    <button><Link to='/button4'>Accessories</Link></button>
-                </div>
+            <nav>
+                <ul>
+                    <li><Link to="/" className="nav-link">Home</Link></li>
+                    <li><Link to='/button2' className="nav-link">iPhone</Link></li>
+                    <li><Link to='/button3' className="nav-link">Android</Link></li>
+                    <li><Link to='/button4' className="nav-link">Accessories</Link></li>
+                </ul>
             </nav>
         </>
 
