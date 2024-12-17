@@ -11,7 +11,7 @@ import Navbars from './components/navbars'
 
 function App() {
   return (
-    <>
+    <div className='maincolor'>
       <h1 className='title'>Smartphones by Fredy Perez Vicente</h1>
       <BrowserRouter>
         <Navbars/>
@@ -22,7 +22,7 @@ function App() {
             <Route path='/button4' element={<Button4/>} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

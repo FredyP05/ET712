@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Button1 = function(){
     return(
         <header className='phone'>
-            <h1>Explore the Latest Phones</h1>
+            <h1>Discover smartphones</h1>
             <p>Find your next phone and get accessories to personalize your phone.</p>
             <h2>Choose what you need!</h2>
             
